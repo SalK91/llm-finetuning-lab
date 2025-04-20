@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    container_name: medquad_finetuning
+    ports:
+      - "7860:7860"    # If you are using Gradio/Streamlit for the demo
+    volumes:
+      - .:/app          # Mount the current directory into the container for easier development
+    environment:
+      - PYTHONUNBUFFERED=1
+    restart: always
+    command: ["python", "your_script.py"]  # Change to the script you want to run (Gradio/Streamlit app)
+    
+  # You can add additional services here, such as databases or other necessary services.
+
+# You can also define networks, build configurations, etc., if necessary.
