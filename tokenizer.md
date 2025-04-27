@@ -4,7 +4,6 @@
 
 Tokenization serves as the foundational preprocessing step in Transformer-based NLP systems. A well-designed tokenizer not only converts raw text into a model-readable format but also influences the effectiveness, efficiency, and generalization capacity of the model across tasks and languages. 
 
-
 ## 1. Introduction
 
 Transformer models such as BERT, RoBERTa, GPT-3, and LLaMA are not designed to process raw text directly. These models require structured numerical input in the form of token embeddings—vector representations of discrete token IDs. The **tokenizer** bridges this gap by segmenting text into interpretable units and encoding these units as integers, while appending auxiliary metadata necessary for efficient and semantically aligned model operation.
