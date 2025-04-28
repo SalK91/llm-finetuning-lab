@@ -181,3 +181,4 @@ encoded = tokenizer("Tokenizing is fun!", return_offsets_mapping=True)
   'offset_mapping': [(0, 0), (0, 10), (11, 13), (14, 17), (17, 18), (0, 0)]
 }
 ```
+
