@@ -161,7 +161,6 @@ For such cases:
 - **Byte-level BPE** (as used in GPT) ensures universality across character sets, scripts, and punctuation systems.
 
 
-
 ## 9. Conclusion
 
 Tokenization is far more than a preprocessing step—it is an architectural decision point that directly impacts model performance, vocabulary generalization, latency, and multilingual handling. Understanding the nuances of tokenizer behavior, output format, and integration with language models is essential for building reliable and scalable NLP systems.
